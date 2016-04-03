@@ -1,2 +1,4 @@
-# issues
-This is the issues API.
+Content API
+=======
+
+Content API
