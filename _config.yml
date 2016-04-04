@@ -54,7 +54,7 @@ navigation:
     label2:
     link2:
     size2: 0
-    padding: 0
+    padding: 20
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
