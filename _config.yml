@@ -1,7 +1,6 @@
-title:        Issues
+title:        API Issues
 url:          http://issues.apievangelist.com
-
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-issues.png
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-issues.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -12,49 +11,66 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 150
-paginate_path: "/news/page:num/"
-
-categories_path : /categories.html
-tags_path : /tags.html
+paginate_path: "/blog/page:num"
 
 org: api-evangelist
 repo: issues
-resource: issues
-oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
-
-get_color: 009900
-post_color: 0000ff
-put_color: FF0080
-delete_color: FF9900
 
 # Masthead title
 masthead_link: http://issues.apievangelist.com
-masthead_font_size: 80
-masthead_title: '{"Issues"}'
+masthead_font_size: 90
+masthead_title: '{"API Issues"}'
 
 # Feature
 feature_title: API Guide
 feature_link: http://apievangelist.com
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
+feature_image_width: 45
 
 # Project
-project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-issues-2.png
-project_summary: Issues plays a central role in the world of APIs. Basic Auth, API keys, and OAuth are the most common approaches to issues. This research project looks to keep an eye on what API providers are doing when it comes to issues, as well as keep an eye on the features that API service providers are offering up.
+project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-issues.png
+project_summary: This is a research project to track on how API providers are sharing current issues with a community. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling I've aggregated here in this research projects Github repository.
 
 # Navigation
 navigation:
   - label1: Home
-    link1: /index.html
+    link1: /
     size1: 80
     extend: 0
     label2:
     link2:
     size2: 0
-    padding: 20
+    padding: 0
+    decorate: 0
+  - label1: Blog
+    link1: /blog/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /blog.xml
+    size2: 60
+    padding: 0
+    decorate: 0
+  - label1: News
+    link1: /news/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /news.xml
+    size2: 60
+    padding: 0
+    decorate: 0
+  - label1: Examples
+    link1: /examples/
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: /data/organizations.json
+    size2: 60
+    padding: 0
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
@@ -63,7 +79,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 12
+    padding: 0
     decorate: 1
 
 # Footer Navigation
@@ -87,3 +103,18 @@ footernavigation:
 sponsors_margin_top: 15
 sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
+
+# curated
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API Issues--these are the links I am including in my research.
+
+# organizations
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API Issues. These are the organizations I'm currently including in my API Issues research.
+
+# tools
+tools_desc: These are the open source management related tooling that I am tracking on as part of my research, and can be used as part of the API Issues process.
