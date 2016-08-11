@@ -65,9 +65,9 @@
 		"base_url": "https://developers.facebook.com/",
 		"blog": "http://blog.facebook.com",
 		"blogrss": "https://twitter.com/airpushads",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Facebook.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Facebook.png",
 		"tags": [
 			"Social Network",
 			"Social API",
