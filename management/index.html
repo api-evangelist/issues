@@ -3,15 +3,15 @@ layout: page
 title: Support example
 ---
 
-<h3>Example Issue Pages</h3>
-<p>These are a couple of the APIs I track on that provide issue pages for their APIs.</p>
+<h3>Issue Management Solutions</h3>
+<p>These are a couple of the solutions for managing issues that I recommend.</p>
 <table width="100%" border="0" cellpadding="3" cellspacing="2">
   {% for org in site.data.organizations %}
 
     {% assign example = 0 %}
 
     {% for tag in org.tags %}
-      {% if tag contains 'Example Issues' %}
+      {% if tag contains 'Issue Management' %}
         {% assign example = 1 %}
       {% endif %}
     {% endfor %}
