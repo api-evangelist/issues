@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "DWqrCOFx0H8z2FlQHvDIfakXlhkN7WjQyn2gfxCwzexbgpfEwiO116nnLCpt4UYUqfS454xvYaZEotYhLEc1s1161A117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "Upgrade your issue tracking with JIRA and Datadog",
+		"url": "https://www.datadoghq.com/blog/jira-issue-tracking/",
+		"domain": "www.datadoghq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UD5faLifp0xf3DtIOcBi4Nc4gclmqoFdTL8PZOEj82mbdMtEOaRFWuGY116EiUs1ahs2FYxBteTvf5cXz8Ztlpig117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "Managing the Deluge of Atom Issues",
+		"url": "http://blog.atom.iohttp://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html",
+		"domain": "blog.atom.iohttp",
+		"image": ""
+	},
+	{
 		"curated_id": "wuj28qCrJpmH373TngSQ1230ir8T6LpfMkvuoJQAA2xz2Bg8MF123ehfP5L1231162123feQfKEG116BMz0webl5j2AkPkEX7A117117",
 		"item_date": "2016-08-31 00:00:00",
 		"title": "Feature Highlight Designing Issue Boards",
