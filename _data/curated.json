@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "w116V9UlVD5a1vBxxgSeEHSaxnKha4elKizKaX7fXN4zYaPMpxSkVhmOUcc7Op921ONDOkKq123zcoCQcZUQLOZOWQ117117",
+		"item_date": "2016-10-22 00:00:00",
+		"title": "GitLab 813 Released with Multiple Issue Boards and Merge Conflict Editor",
+		"url": "https://about.gitlab.com/2016/10/22/gitlab-8-13-released/",
+		"domain": "about.gitlab.com",
+		"image": ""
+	},
+	{
+		"curated_id": "U116O116MxhGhOyEc0qLIQG33loXb36brX116w05FVn0e8gyWsL123CdRkoy7QHCwgHm1p6116z9QwsRHYKnlKpEjCtAUNQg117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "Now Open GitHub Issues for Gradle",
+		"url": "https://dzone.com/articles/now-open-github-issues-for-gradle",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "DWqrCOFx0H8z2FlQHvDIfakXlhkN7WjQyn2gfxCwzexbgpfEwiO116nnLCpt4UYUqfS454xvYaZEotYhLEc1s1161A117117",
 		"item_date": "2016-10-11 00:00:00",
 		"title": "Upgrade your issue tracking with JIRA and Datadog",
