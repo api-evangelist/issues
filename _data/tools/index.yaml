@@ -1,0 +1,35 @@
+- slug: githubcli
+  name: github-cli
+  description: A command-line interface to the GitHub Issues API v2.
+  url: 'https://github.com/jsmits/github-cli'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Command Line Interface,Issues'
+- slug: comcom
+  name: comcom
+  description: Github Powered Comments using Issue API
+  url: 'https://github.com/sirbrad/comcom'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Issues
+- slug: gitlabhq
+  name: gitlabhq
+  description: >-
+    GitLab is version control for your server | Please open issues in our issue
+    tracker on GitLab.com
+  url: 'https://github.com/gitlabhq/gitlabhq'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Issues
