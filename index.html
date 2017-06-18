@@ -107,6 +107,7 @@ title: API Evangelist - Issues
 	<div class="features">
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
+		{% unless organization.tags contains 'Issues Example' %}
 			<article>
 				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
 				<div class="content">
@@ -129,6 +130,52 @@ title: API Evangelist - Issues
 					</ul>
 				</div>
 			</article>
+			{% endunless %}
+    {% endfor %}
+		<center>
+			<ul class="actions" style="text-align: center;">
+				<li><a href="/organizations/" class="button big">See All Organizations</a></li>
+			</ul>
+		</center>
+		<p>{{ organization_content.footer }}</p>
+	</div>
+</section>
+
+<!-- Organizations -->
+<a name="Organizations"></a>
+{% assign organization_content = site.data.organization_content.index[0] %}
+<section>
+	<header>
+		<h2>Some Examples</h2>
+	</header>
+	<p>Some examples of good issue pages and efforts as part of API operations.</p>
+	<div class="features">
+		{% assign organizations = site.data.organizations.index %}
+    {% for organization in organizations %}
+			{% if organization.tags contains 'Issues Example' %}
+			<article>
+				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.description }}</p>
+					<ul class="icons">
+						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+						{% if organization.twitter != '' %}
+						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						{% endif %}
+						{% if organization.blog != '' %}
+						<li><a href="{{ organization.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+						{% endif %}
+						{% if organization.blog_rss != '' %}
+						<li><a href="{{ organization.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+						{% endif %}
+						{% if organization.github != '' %}
+						<li><a href="{{ organization.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</article>
+			{% endif %}
     {% endfor %}
 		<center>
 			<ul class="actions" style="text-align: center;">
