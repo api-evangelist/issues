@@ -1,193 +1,226 @@
----
-- slug: playnice.ly
-  name: PlayNice.ly
-  description: 'PlayNice.ly is the perfect collaboration platform for developers,
-    designers, product managers, clients and anyone else involved in your projects.
-    Including your mother.  With PlayNice.ly you can:   Set milestones or sprints
-    (we&#8217;re methodology agnostic) Assign tasks like a robot devil Track bugs
-    and issues with a complete audit trail Integrate code commits from GitHub or Subversion
-    Unlock badges with your ninja-like productivity skillz   PlayNicely Labs is a
-    software start-up based in London.'
-  url: http://docs.playnice.ly/api/
-  shorturl: ""
-  twitter: https://twitter.com/playnicelyapp
-  blog: http://playnice.ly/blog/
-  blogrss: http://playnice.ly/blog/feed/
-  github: https://github.com/playnicelyapp
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/897_logo.png
-  tags: Bug Tracking,Coding,Tracking,Programming,Bug Tracking,Code Issues
-- slug: gitlab
-  name: GitLab
-  description: GitLab Inc. is a company based on the&nbsp;GitLab open-source project.
-    GitLab is an application to code, test, and deploy code together. It provides
-    Git repository management with fine grained access controls, code reviews, issue
-    tracking, activity feeds, wikis, and continuous integration.
-  url: https://about.gitlab.com/
-  shorturl: ""
-  twitter: https://twitter.com/gitlab
-  blog: https://about.gitlab.com/blog/
-  blogrss: https://about.gitlab.com/atom.xml
-  github: https://github.com/gitlabhq
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitlab.png
-  tags: Code,GitHub,Git,Issues,Issue Management
-- slug: atlassian
-  name: Atlassian
-  description: Atlassian is a software company that provides innovative enterprise
-    software solutions to a number of organizations. Originally founded in 2002 in
-    Sydney, Australia, the company has quickly grown to establish a global presence
-    with over 20,000 customers in over 134 countries. In addition to the effective
-    enterprise solutions offered to its customers, Atlassian prides itself on its
-    customer service and support. Indeed, the company has won numerous awards for
-    its suite of software and the accompanying support.
-  url: http://atlassian.com/
-  shorturl: ""
-  twitter: https://twitter.com/atlassian
-  blog: http://blogs.atlassian.com/
-  blogrss: ""
-  github: https://github.com/atlassian
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/691_logo.png
-  tags: Coding,Programming,Wiki,Issues,Code Issues
-- slug: unfuddle
-  name: Unfuddle
-  description: Unfuddle is a secure, hosted software development environment and project
-    management solution for small software development teams.   Ironically, Unfuddle
-    is nothing new. Project and code management tools have existed for a very long
-    time. However, as a small consulting company, we have often had the opportunity
-    to work with other people&#8217;s code. Despite the wide availability of some
-    excellent tools (many even open source) for helping teams manage their projects,
-    we have been astonished at just how bad some teams are at keeping their projects
-    organized - even at the most basic level.   We know that you don&#8217;t have
-    time to get a server up and running and then configure and secure code repositories,
-    ticketing systems and project management tools.   Unfuddle is our way of helping
-    you and your team do things right.
-  url: http://unfuddle.com
-  shorturl: ""
-  twitter: https://twitter.com/#!/unfuddle
-  blog: https://unfuddle.com/blog/
-  blogrss: https://unfuddle.com/blog/feed.rss
-  github: https://github.com/unfuddle
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/512_logo.png
-  tags: Enterprise,Projects,Software,Code,Project,Issues,Bugs,Code Issues
-- slug: open311
-  name: Open311
-  description: Open311 is meant to facilitate an international effort to build open
-    interoperable systems that allow citizens to more directly interact with their
-    cities. Many 311 systems provide a broad range of information and services, but
-    currently the primary focus here is coordinating a standardized, open-access,
-    read/write model for citizens to report non-emergency issues. For a broad overview,
-    see the Learn More page, for an in-depth look see the post that describes Open311
-    as a specification for an open platform, and for general information about 311,
-    see the Wikipedia page on 311.
-  url: http://open311.org
-  shorturl: ""
-  twitter: https://twitter.com/open311
-  blog: ""
-  blogrss: http://open311.org/feed/
-  github: https://github.com/open311
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/open311-logo.jpeg
-  tags: Government,Open311,Issues,City Government Services,City Open Tools,City Services
-- slug: seeclickfix
-  name: SeeClickFIx
-  description: SeeClickFix is a free mobile phone and web tool that allows citizens
-    to report non-emergency issues, to communicate with public officials, and to engage
-    with fellow citizens to help find solutions to problems in their neighborhood
-    or town. Reported issues are displayed on a web-based map along with tools which
-    allow other citizens to add comments, suggest resolutions, or add video/pictorial
-    documentation. Anyone can receive email alerts on these issues based on a filter
-    by geographical area and keyword.&nbsp;
-  url: http://en.seeclickfix.com/
-  shorturl: ""
-  twitter: https://twitter.com/seeclickfix
-  blog: http://seeclickfix.blogspot.com/
-  blogrss: http://seeclickfix.blogspot.com/feeds/posts/default?alt=rss
-  github: https://github.com/SeeClickFix
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/470_logo.png
-  tags: Government,Open311,Issues,City,Civic Issues
-- slug: spotify
-  name: Spotify
-  description: Spotify has created a lightweight software application that allows
-    instant listening to specific tracks or albums with virtually no buffering delay.
-    It was launched in the fall of 2008 and had approximately 10 million users by
-    September 2010. Spotify offers streaming music from major and independent record
-    labels including Sony, EMI, Warner Music Group, and Universal. Users download
-    Spotify and then log onto their service enabling the on-demand streaming of music.
-    Music can be browsed by artist, album, record label, genre or playlist as well
-    as by direct searches.
-  url: http://www.spotify.com
-  shorturl: ""
-  twitter: https://twitter.com/spotify
-  blog: http://www.spotify.com/blog/
-  blogrss: http://www.spotify.com/blog/feed
-  github: https://github.com/spotify
-  image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
-  tags: Music,Streaming,Indie EdTech Data Jam,Issues,Issues Example,Change Log,Change
-    Log Example
-- slug: heroku
-  name: Heroku
-  description: Heroku is the first and best multi-language cloud application platform,
-    or platform-as-a-service. Heroku allows developers to deploy, scale, and manage
-    their apps without needing to think about servers or systems administration. Over
-    one million applications have been deployed to Heroku.
-  url: https://www.heroku.com/
-  shorturl: ""
-  twitter: https://twitter.com/HerokuDevCenter
-  blog: https://blog.heroku.com/
-  blogrss: http://feeds2.feedburner.com/heroku
-  github: https://github.com/heroku
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  tags: PaaS,Platform,My API Stack,API LIfeycle,Database,Command Line Interface,Getting
-    Started,Issues,Issues Example,Federal Government,Federal Government,Federal Government,Federal
-    Government
-- slug: facebook
-  name: Facebook
-  description: Facebook is an online social networking service that allows its users
-    to connect with friends and family as well as make new connections. It provides
-    its users with the ability to create a profile, update information, add images,
-    send friend requests, and accept requests from other users. Its features include
-    status update, photo tagging and sharing, and more.
-  url: https://facebook.com
-  shorturl: ""
-  twitter: https://twitter.com/facebook
-  blog: http://blog.facebook.com
-  blogrss: https://www.facebook.com/business/news/rss/
-  github: https://github.com/facebook
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  tags: Social Network,Social,Payments,Payment API,My API Stack,Partners,Indie EdTech
-    Data Jam,Social API,Advertising,Road Map,Issues,Issues Example,Facebook Stack
-- slug: github
-  name: GitHub
-  description: GitHub is a social network for programmers. Git is a distributed software
-    management program created by Linus Torvalds, originally for the Linux Kernel
-    Development. GitHub is a hosted Git repository. Github allows you to take part
-    in collaboration by forking projects, sending and pulling requests, and monitoring
-    development.
-  url: ""
-  shorturl: ""
-  twitter: https://twitter.com/github
-  blog: http://github.com/blog
-  blogrss: https://github.com/blog/subscribe
-  github: https://github.com
-  image: https://assets-cdn.github.com/images/modules/logos_page/Octocat.png
-  tags: Social,Coding,Programming,Social,Jobs,Hacker Storytelling,Code,Platform,My
-    API Stack,Management,Imports,Issues,Issue Management,Change Log,Change Log Example
-- slug: bontq
-  name: Bontq
-  description: "Bontq is for any business that needs a bug tracking and project management
-    application but does not have the internal resources, or budget, for a full-blown
-    application suite.  For many companies, the necessity to track bugs is often superseded
-    by a lack of resources or by budgetary reasons. One option for companies in that
-    situation could be to use an online service for tracking bugs. One online service
-    stands out with a few extra features that make it quite useful for those tracking
-    the bugs and those reporting the bugs.  Bontq is an online solution that does
-    both bug tracking as well as project management. But Bontq doesn\u2019t stop there.
-    This online solution also offers a client application that helps users easily
-    snap and submit screenshots to aid in the bug tracking process."
-  url: http://www.bontq.com/
-  shorturl: ""
-  twitter: https://twitter.com/Bontq
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: ""
-  tags: Tracking,Projects,Issues,Code Issues
-...
+- slug: apache-avro
+  name: Apache Avro
+  description: >-
+    Apache Avro is a data serialization system. Avro relies on schemas. When
+    Avro data is read, the schema used when writing it is always present. This
+    permits each datum to be written with no per-value overheads, making
+    serialization both fast and small. This also facilitates use with dynamic,
+    scripting languages, since data, together with its schema, is fully
+    self-describing.
+  url: 'https://avro.apache.org/docs/current/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-avro.png
+  tags: Definitions
+- slug: api-blueprint
+  name: API Blueprint
+  description: >-
+    API Blueprint is a documentation-oriented API description language. A couple
+    of semantic assumptions over the plain Markdown. API Blueprint is perfect
+    for designing your Web API and its comprehensive documentation but also for
+    quick prototyping and collaboration. It is easy to learn and even easier to
+    read &ndash; after all it is just a form of plain text.
+  url: 'https://apiblueprint.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/apiblueprint'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/apiaryio/api-blueprint'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiblueprint-logo-2.png
+  tags: Definitions
+- slug: api-transformer
+  name: API Transformer
+  description: >-
+    Transform API Descriptions from/to various formats e.g., Swagger, API
+    Blueprint, RAML, WADL, Google Discovery, I/O Docs. Please contact us for
+    production and high volume usage.
+  url: 'https://apitransformer.com/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-transformer-screenshot.png
+  tags: 'Definitions,Conversion,My API Stack'
+- slug: elastic-path
+  name: Elastic Path
+  description: >-
+    Elastic Path builds commerce software that powers the next generation of
+    digital experiences, helping businesses generate more revenue from their
+    goods, services, and content. Our products, including Commerce Engine,
+    Cortex, and Subscriptions, enable companies to unite discovery, buying, and
+    consumption into outstanding customer experiences that drive more engagement
+    and conversion.
+  url: 'http://www.elasticpath.com'
+  short_url: ''
+  twitter: 'https://twitter.com/elasticpath'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/elasticpath'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg
+  tags: 'Enterprise,Retail,Commerce,Hypermedia,API LIfeycle,Definitions'
+- slug: frictionless-data
+  name: Frictionless Data
+  description: >-
+    Data Packages are a lightweight containerization format for data. They
+    provide the foundation for frictionless data transport.&nbsp;Tools and
+    integrations to make it easy to integrate Data Packages into your data
+    processing and publishing workflows.&nbsp;Learn how to get started using and
+    developing with Data Packages through our guides, tutorials and
+    documentation.
+  url: 'http://specs.frictionlessdata.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/frictionlessdata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/frictionlessdata-logo.png
+  tags: 'Data,Schema,Definitions'
+- slug: postman
+  name: Postman
+  description: >-
+    Postman on Chrome is the most efficient way to test, develop and document
+    APIs. Create complex requests, go back in time and view results in a
+    beautiful way. Postman has more than 80 features to help you at every
+    step.&nbsp;Our user base is growing rapidly and with more tools in the
+    pipeline, Postman aims to provide the most comprehensive API development and
+    testing solution to developers.
+  url: 'http://www.getpostman.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/postmanclient'
+  blog: 'http://blog.getpostman.com/'
+  blog_rss: 'http://blog.getpostman.com/index.php/feed/'
+  github: 'https://github.com/postmanlabs'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
+  tags: 'Clients, Testing, Definitions'
+- slug: google-api-discovery-service
+  name: Google API Discovery Service
+  description: >-
+    You can use the Google API Discovery Service to build client libraries, IDE
+    plugins, and other tools that interact with Google APIs. It provides a
+    lightweight, JSON-based API that exposes machine-readable metadata about
+    Google APIs.
+  url: 'https://developers.google.com/discovery/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 9.06.47 PM.png
+  tags: 'Discovery,Google APIs,Definitions'
+- slug: odata.org
+  name: OData
+  description: >-
+    OData (Open Data Protocol) is an OASIS standard that defines the best
+    practice for building and consuming RESTful APIs. OData helps you focus on
+    your business logic while building RESTful APIs without having to worry
+    about the approaches to define request and response headers, status codes,
+    HTTP methods, URL conventions, media types, payload formats and query
+    options etc.
+  url: 'http://www.odata.org/'
+  short_url: 'http://apis.how/byirz5zgt7'
+  twitter: 'https://twitter.com/odataorg'
+  blog: 'http://www.odata.org/blog/'
+  blog_rss: ''
+  github: 'https://github.com/odata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/odata-logo.png
+  tags: Definitions
+- slug: openapi-spec
+  name: OpenAPIs
+  description: >-
+    The Open API Initiative (OAI) was created by a consortium of forward-looking
+    industry experts who recognize the immense value of standardizing on how
+    REST APIs are described. As an open governance structure under the Linux
+    Foundation, the OAI is focused on creating, evolving and promoting a vendor
+    neutral description format. SmartBear Software is donating the Swagger
+    Specification directly to the OAI as the basis of this Open Specification.
+    &nbsp;
+  url: 'https://openapis.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/openapispec'
+  blog: 'https://openapis.org/news-faq/blog'
+  blog_rss: 'https://www.openapis.org/feed'
+  github: 'https://github.com/OAI'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oai-logo.png
+  tags: Definitions
+- slug: raml
+  name: RAML
+  description: >-
+    RESTful API Modeling Language (RAML) is a simple and succinct way of
+    describing practically-RESTful APIs. It encourages reuse, enables discovery
+    and pattern-sharing, and aims for merit-based emergence of best practices.
+    The goal is to help our current API ecosystem by solving immediate problems
+    and then encourage ever-better API patterns. RAML is built on broadly-used
+    standards such as YAML and JSON and is a non-proprietary, vendor-neutral
+    open spec.
+  url: 'http://raml.org/'
+  short_url: ''
+  twitter: ''
+  blog: 'http://open-raml.blogspot.com/'
+  blog_rss: 'http://open-raml.blogspot.com/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/raml-logo.jpg
+  tags: Definitions
+- slug: ''
+  name: RESTdesc
+  description: >-
+    Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture
+    the functionality of hypermedia APIs, so automated agents can use them.
+    Despite their powerful capabilities, RESTdesc descriptions are easy to
+    master. Description is not a goal in itself: you want your API to be used.
+    See how RESTdesc opens up your API for discovery, based on its functional
+    characteristics.
+  url: 'http://restdesc.org/'
+  short_url: 'http://apis.how/vymksgxgfl'
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restdesc-logo.png
+  tags: Definitions
+- slug: schema.org
+  name: Schema.org
+  description: >-
+    Schema.org is a collaborative, community activity with a mission to create,
+    maintain, and promote schemas for structured data on the Internet, on web
+    pages, in email messages, and beyond. Schema.org vocabulary can be used with
+    many different encodings, including RDFa, Microdata and JSON-LD.&nbsp;
+  url: 'http://schema.org'
+  short_url: ''
+  twitter: ''
+  blog: 'http://blog.schema.org/'
+  blog_rss: 'http://blog.schema.org/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schema-org-logo.jpeg
+  tags: 'Definitions, Schema'
+- slug: u.s.-data-federation
+  name: U.S. Data Federation
+  description: >-
+    The U.S. Data Federation supports data interoperability and harmonization
+    across Federal, state, and local government agencies by highlighting common
+    data formats, API specifications, and metadata vocabularies.
+  url: 'http://federation.data.gov/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usdf-logo.png
+  tags: 'Federal Government,Definitions'
