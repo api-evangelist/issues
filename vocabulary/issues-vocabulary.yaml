@@ -1,0 +1,284 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Issues
+  description: Vocabulary for the issues topic, covering issue trackers, bug trackers, and project-management APIs that expose issue, ticket, task, and work-item primitives.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Jira Cloud Platform
+      namespace: jira
+      status: active
+    - name: Linear API
+      namespace: linear
+      status: active
+    - name: GitHub Issues
+      namespace: github
+      status: active
+    - name: GitLab Issues
+      namespace: gitlab
+      status: active
+    - name: Asana API
+      namespace: asana
+      status: active
+    - name: Azure DevOps Work Items
+      namespace: azure-devops
+      status: active
+
+  resources:
+    - name: issues
+      description: Issues, tickets, work items, and tasks tracked by an issue tracker or project-management platform
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - search
+        - transition
+    - name: comments
+      description: Comments posted by users on an issue, forming the discussion thread
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: labels
+      description: Tags or labels used to classify issues
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - assign
+    - name: projects
+      description: Projects, boards, or workspaces that contain issues
+      actions:
+        - list
+        - get
+    - name: sprints
+      description: Time-boxed iterations, cycles, or sprints used by agile trackers
+      actions:
+        - list
+        - get
+        - create
+        - update
+    - name: webhooks
+      description: Event subscriptions that push issue lifecycle events to external consumers
+      actions:
+        - create
+        - list
+        - delete
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource by identifier
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Find issues by query, JQL, or filter criteria
+      httpMethod: GET
+      pattern: query
+    - name: create
+      description: Create a new issue, comment, or related resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update fields on an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: transition
+      description: Move an issue between workflow states
+      httpMethod: POST
+      pattern: write
+    - name: assign
+      description: Assign a label, user, or component to an issue
+      httpMethod: POST
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: Issue
+        description: A single issue, ticket, work item, or task
+        properties:
+          - id
+          - key
+          - title
+          - description
+          - type
+          - status
+          - priority
+          - project
+          - assignee
+          - reporter
+          - labels
+          - url
+          - created_at
+          - updated_at
+          - due_date
+      - name: Comment
+        description: A comment on an issue
+        properties:
+          - id
+          - issue_id
+          - author
+          - body
+          - format
+          - internal
+          - mentions
+          - created_at
+          - updated_at
+          - url
+
+  enums:
+    issue_types:
+      - bug
+      - feature
+      - task
+      - story
+      - epic
+      - improvement
+      - incident
+      - subtask
+    issue_priorities:
+      - lowest
+      - low
+      - medium
+      - high
+      - highest
+      - critical
+    workflow_states:
+      - open
+      - in_progress
+      - in_review
+      - blocked
+      - done
+      - closed
+      - cancelled
+    comment_formats:
+      - plaintext
+      - markdown
+      - html
+      - adf
+
+capability:
+  workflows:
+    - name: Engineering Issue Tracking
+      description: Capture, triage, assign, and resolve bugs and feature work in a developer-facing tracker
+      apis:
+        - jira
+        - linear
+        - github
+        - gitlab
+      personas:
+        - Software Engineer
+      domains:
+        - Issue Tracking
+    - name: Cross-Team Work Coordination
+      description: Plan and coordinate tasks across product, engineering, marketing, and operations teams
+      apis:
+        - asana
+        - clickup
+        - monday-com
+        - wrike
+      personas:
+        - Project Manager
+      domains:
+        - Work Management
+    - name: Product Roadmap and Discovery
+      description: Connect customer feedback to issues and roadmap items
+      apis:
+        - productboard
+        - linear
+        - shortcut
+      personas:
+        - Product Manager
+      domains:
+        - Product Management
+    - name: AI Agent Triage and Routing
+      description: AI agents classify, label, route, and summarize incoming issues for human review
+      apis:
+        - jira
+        - linear
+        - github
+      personas:
+        - AI Agent Operator
+      domains:
+        - Issue Tracking
+
+  personas:
+    - id: software-engineer
+      name: Software Engineer
+      description: Engineers using issue trackers to manage bugs, stories, and tasks
+      workflows:
+        - Engineering Issue Tracking
+    - id: project-manager
+      name: Project Manager
+      description: Managers coordinating work across teams in work-management platforms
+      workflows:
+        - Cross-Team Work Coordination
+    - id: product-manager
+      name: Product Manager
+      description: Product managers connecting customer feedback to roadmap and engineering work
+      workflows:
+        - Product Roadmap and Discovery
+    - id: ai-agent-operator
+      name: AI Agent Operator
+      description: Operators of AI agents that triage, label, and route issues at scale
+      workflows:
+        - AI Agent Triage and Routing
+
+  domains:
+    - name: Issue Tracking
+      description: Developer-facing trackers for bugs, stories, and tasks
+    - name: Work Management
+      description: Platforms for cross-functional task and project coordination
+    - name: Product Management
+      description: Tools that link customer feedback and product opportunities to engineering work
+    - name: Bug Tracking
+      description: Classic and modern bug-tracking systems
+
+crossReference:
+  - resource: issues
+    operations:
+      - list
+      - get
+      - create
+      - update
+      - transition
+    workflows:
+      - Engineering Issue Tracking
+      - Cross-Team Work Coordination
+    personas:
+      - Software Engineer
+      - Project Manager
+  - resource: comments
+    operations:
+      - list
+      - create
+    workflows:
+      - Engineering Issue Tracking
+      - AI Agent Triage and Routing
+    personas:
+      - Software Engineer
+      - AI Agent Operator
+  - resource: labels
+    operations:
+      - list
+      - assign
+    workflows:
+      - AI Agent Triage and Routing
+    personas:
+      - AI Agent Operator

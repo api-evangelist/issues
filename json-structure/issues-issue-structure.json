@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/json-structure/issues-issue-structure.json",
+  "name": "Issue",
+  "description": "Represents a single issue, ticket, work item, or task in an issue tracking, bug tracking, or project-management system.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable, provider-assigned identifier for the issue.",
+      "example": "10234"
+    },
+    "key": {
+      "type": "string",
+      "description": "Human-readable issue key, often combining a project prefix and a numeric counter.",
+      "example": "ENG-482"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short, one-line summary of the issue.",
+      "example": "OAuth refresh fails when token has trailing whitespace"
+    },
+    "description": {
+      "type": "string",
+      "description": "Long-form description of the issue, often in Markdown or a provider-specific rich-text format.",
+      "example": "When the stored refresh token contains trailing whitespace, the /oauth/refresh endpoint returns 401 instead of trimming the value."
+    },
+    "type": {
+      "type": "string",
+      "description": "Classification of the work item.",
+      "enum": [
+        "bug",
+        "feature",
+        "task",
+        "story",
+        "epic",
+        "improvement",
+        "incident",
+        "subtask"
+      ],
+      "example": "bug"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current workflow state of the issue.",
+      "example": "in_progress"
+    },
+    "priority": {
+      "type": "string",
+      "description": "Importance of the issue relative to other work.",
+      "enum": [
+        "lowest",
+        "low",
+        "medium",
+        "high",
+        "highest",
+        "critical"
+      ],
+      "example": "high"
+    },
+    "project": {
+      "type": "string",
+      "description": "Identifier of the project, board, or workspace the issue belongs to.",
+      "example": "ENG"
+    },
+    "assignee": {
+      "type": "string",
+      "description": "Identifier or email of the user currently responsible for the issue.",
+      "example": "alex@example.com"
+    },
+    "reporter": {
+      "type": "string",
+      "description": "Identifier or email of the user who created the issue.",
+      "example": "support-bot@example.com"
+    },
+    "labels": {
+      "type": "array",
+      "description": "Tags or labels classifying the issue.",
+      "items": {
+        "type": "string"
+      },
+      "example": [
+        "auth",
+        "regression"
+      ]
+    },
+    "url": {
+      "type": "uri",
+      "description": "Web URL for viewing the issue in its tracker.",
+      "example": "https://example.atlassian.net/browse/ENG-482"
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "Timestamp the issue was created.",
+      "example": "2026-05-12T14:21:00Z"
+    },
+    "updated_at": {
+      "type": "datetime",
+      "description": "Timestamp the issue was last modified.",
+      "example": "2026-05-18T09:45:00Z"
+    },
+    "due_date": {
+      "type": "date",
+      "description": "Target date for the issue to be resolved.",
+      "example": "2026-05-30"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "status",
+    "project"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/json-structure/issues-comment-structure.json",
+  "name": "Comment",
+  "description": "A comment posted on an issue in an issue tracking or project-management system.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable, provider-assigned identifier for the comment.",
+      "example": "c-77231"
+    },
+    "issue_id": {
+      "type": "string",
+      "description": "Identifier of the parent issue the comment belongs to.",
+      "example": "10234"
+    },
+    "author": {
+      "type": "string",
+      "description": "Identifier or email of the user who wrote the comment.",
+      "example": "alex@example.com"
+    },
+    "body": {
+      "type": "string",
+      "description": "Body of the comment in Markdown or a provider-specific rich-text format.",
+      "example": "Reproduced on staging. Patch attached, ready for review."
+    },
+    "format": {
+      "type": "string",
+      "description": "Format of the comment body.",
+      "enum": [
+        "plaintext",
+        "markdown",
+        "html",
+        "adf"
+      ],
+      "example": "markdown"
+    },
+    "internal": {
+      "type": "boolean",
+      "description": "Whether the comment is restricted to internal users and hidden from external reporters.",
+      "example": false
+    },
+    "mentions": {
+      "type": "array",
+      "description": "Users mentioned in the comment body.",
+      "items": {
+        "type": "string"
+      },
+      "example": [
+        "jordan@example.com"
+      ]
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "Timestamp the comment was created.",
+      "example": "2026-05-18T09:42:00Z"
+    },
+    "updated_at": {
+      "type": "datetime",
+      "description": "Timestamp the comment was last edited.",
+      "example": "2026-05-18T09:45:00Z"
+    },
+    "url": {
+      "type": "uri",
+      "description": "Web URL pointing directly to the comment.",
+      "example": "https://example.atlassian.net/browse/ENG-482?focusedCommentId=77231"
+    }
+  },
+  "required": [
+    "id",
+    "issue_id",
+    "author",
+    "body"
+  ]
+}

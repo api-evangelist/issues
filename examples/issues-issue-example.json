@@ -1,0 +1,17 @@
+{
+  "id": "10234",
+  "key": "ENG-482",
+  "title": "OAuth refresh fails when token has trailing whitespace",
+  "description": "When the stored refresh token contains trailing whitespace, the /oauth/refresh endpoint returns 401 instead of trimming the value. Reproducible on staging and production.",
+  "type": "bug",
+  "status": "in_progress",
+  "priority": "high",
+  "project": "ENG",
+  "assignee": "alex@example.com",
+  "reporter": "support-bot@example.com",
+  "labels": ["auth", "regression", "customer-reported"],
+  "url": "https://example.atlassian.net/browse/ENG-482",
+  "created_at": "2026-05-12T14:21:00Z",
+  "updated_at": "2026-05-18T09:45:00Z",
+  "due_date": "2026-05-30"
+}

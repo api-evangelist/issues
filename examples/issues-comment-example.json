@@ -1,0 +1,12 @@
+{
+  "id": "c-77231",
+  "issue_id": "10234",
+  "author": "alex@example.com",
+  "body": "Reproduced on staging. The token value is being read verbatim from the database without `strip()`. Patch attached, ready for review. cc @jordan",
+  "format": "markdown",
+  "internal": false,
+  "mentions": ["jordan@example.com"],
+  "created_at": "2026-05-18T09:42:00Z",
+  "updated_at": "2026-05-18T09:45:00Z",
+  "url": "https://example.atlassian.net/browse/ENG-482?focusedCommentId=77231"
+}

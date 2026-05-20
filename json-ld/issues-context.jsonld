@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "iss": "https://api-evangelist.github.io/issues/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "Issue": "iss:Issue",
+    "Comment": "schema:Comment",
+    "Label": "iss:Label",
+    "Transition": "iss:Transition",
+
+    "id": "schema:identifier",
+    "key": "iss:key",
+    "title": "schema:name",
+    "name": "schema:name",
+    "description": "schema:description",
+    "body": "schema:text",
+
+    "type": {
+      "@id": "iss:type",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "iss:status",
+      "@type": "xsd:string"
+    },
+    "priority": {
+      "@id": "iss:priority",
+      "@type": "xsd:string"
+    },
+    "project": {
+      "@id": "iss:project",
+      "@type": "xsd:string"
+    },
+    "assignee": {
+      "@id": "iss:assignee",
+      "@type": "@id"
+    },
+    "reporter": {
+      "@id": "iss:reporter",
+      "@type": "@id"
+    },
+    "author": {
+      "@id": "schema:author",
+      "@type": "@id"
+    },
+    "issue_id": {
+      "@id": "iss:issueId",
+      "@type": "xsd:string"
+    },
+    "labels": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "mentions": {
+      "@id": "schema:mentions",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "created_at": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    },
+    "updated_at": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+    "due_date": {
+      "@id": "iss:dueDate",
+      "@type": "xsd:date"
+    },
+    "format": {
+      "@id": "iss:format",
+      "@type": "xsd:string"
+    },
+    "internal": {
+      "@id": "iss:internal",
+      "@type": "xsd:boolean"
+    }
+  }
+}
