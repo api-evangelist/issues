@@ -1,0 +1,26 @@
+title: Issues
+description: An index and topic collection covering issue tracking, bug tracking,
+  and project-management APIs that expose issue, ticket, task, and work-item primitives.
+  Issue tracking APIs are the connective tissue between engineering, product, and
+  operations work — they capture defects, feature requests, user stories, and tasks,
+  then move them through configurable workflows from creation to resolution. This
+  collection includes developer-centric trackers like Jira, Linear, GitHub Issues,
+  and GitLab Issues; project- and work-management platforms like Asana, ClickUp, Monday.com,
+  Trello, and Wrike; product-discovery trackers like Productboard and Shortcut; classic
+  open-source bug trackers like Redmine; and flexible work-item stores like Notion,
+  Airtable, and Smartsheet. It is distinct from the customer-support topic (Zendesk-style
+  help desks) and from incident management (which lives under monitoring).
+url: https://issues.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

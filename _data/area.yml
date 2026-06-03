@@ -1,0 +1,191 @@
+meta:
+  name: Issues
+  description: An index and topic collection covering issue tracking, bug tracking,
+    and project-management APIs that expose issue, ticket, task, and work-item primitives.
+    Issue tracking APIs are the connective tissue between engineering, product, and
+    operations work — they capture defects, feature requests, user stories, and tasks,
+    then move them through configurable workflows from creation to resolution. This
+    collection includes developer-centric trackers like Jira, Linear, GitHub Issues,
+    and GitLab Issues; project- and work-management platforms like Asana, ClickUp,
+    Monday.com, Trello, and Wrike; product-discovery trackers like Productboard and
+    Shortcut; classic open-source bug trackers like Redmine; and flexible work-item
+    stores like Notion, Airtable, and Smartsheet. It is distinct from the customer-support
+    topic (Zendesk-style help desks) and from incident management (which lives under
+    monitoring).
+  tags:
+  - Issue Tracking
+  - Bug Tracking
+  - Project Management
+  - Task Management
+  - Work Management
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: issues
+services_tools:
+- name: Airtable
+  repo: https://github.com/api-evangelist/airtable
+  apisio: https://providers.apis.io/providers/airtable/
+- name: Asana
+  repo: https://github.com/api-evangelist/asana
+  apisio: https://providers.apis.io/providers/asana/
+- name: Atlassian
+  repo: https://github.com/api-evangelist/atlassian
+  apisio: https://providers.apis.io/providers/atlassian/
+- name: Atlassian Compass
+  repo: https://github.com/api-evangelist/atlassian-compass
+  apisio: https://providers.apis.io/providers/atlassian-compass/
+- name: Atlassian Jira
+  repo: https://github.com/api-evangelist/atlassian-jira
+  apisio: https://providers.apis.io/providers/atlassian-jira/
+- name: Azure DevOps
+  repo: https://github.com/api-evangelist/azure-devops
+  apisio: https://providers.apis.io/providers/azure-devops/
+- name: Basecamp
+  repo: https://github.com/api-evangelist/basecamp
+  apisio: https://providers.apis.io/providers/basecamp/
+- name: Bitbucket
+  repo: https://github.com/api-evangelist/bitbucket
+  apisio: https://providers.apis.io/providers/bitbucket/
+- name: ClickUp
+  repo: https://github.com/api-evangelist/clickup
+  apisio: https://providers.apis.io/providers/clickup/
+- name: Gitea
+  repo: https://github.com/api-evangelist/gitea
+  apisio: https://providers.apis.io/providers/gitea/
+- name: GitHub
+  repo: https://github.com/api-evangelist/github
+  apisio: https://providers.apis.io/providers/github/
+- name: GitLab
+  repo: https://github.com/api-evangelist/gitlab
+  apisio: https://providers.apis.io/providers/gitlab/
+- name: Hive
+  repo: https://github.com/api-evangelist/hive
+  apisio: https://providers.apis.io/providers/hive/
+- name: Jira
+  repo: https://github.com/api-evangelist/jira
+  apisio: https://providers.apis.io/providers/jira/
+- name: Linear
+  repo: https://github.com/api-evangelist/linear
+  apisio: https://providers.apis.io/providers/linear/
+- name: Microsoft Project
+  repo: https://github.com/api-evangelist/microsoft-project
+  apisio: https://providers.apis.io/providers/microsoft-project/
+- name: Monday.com
+  repo: https://github.com/api-evangelist/monday-com
+  apisio: https://providers.apis.io/providers/monday-com/
+- name: Notion
+  repo: https://github.com/api-evangelist/notion
+  apisio: https://providers.apis.io/providers/notion/
+- name: Productboard
+  repo: https://github.com/api-evangelist/productboard
+  apisio: https://providers.apis.io/providers/productboard/
+- name: Redmine
+  repo: https://github.com/api-evangelist/redmine
+  apisio: https://providers.apis.io/providers/redmine/
+- name: Shortcut
+  repo: https://github.com/api-evangelist/shortcut
+  apisio: https://providers.apis.io/providers/shortcut/
+- name: Smartsheet
+  repo: https://github.com/api-evangelist/smartsheet
+  apisio: https://providers.apis.io/providers/smartsheet/
+- name: Teamwork
+  repo: https://github.com/api-evangelist/teamwork
+  apisio: https://providers.apis.io/providers/teamwork/
+- name: Trello
+  repo: https://github.com/api-evangelist/trello
+  apisio: https://providers.apis.io/providers/trello/
+- name: Wrike
+  repo: https://github.com/api-evangelist/wrike
+  apisio: https://providers.apis.io/providers/wrike/
+- name: Zoho
+  repo: https://github.com/api-evangelist/zoho
+  apisio: https://providers.apis.io/providers/zoho/
+features:
+- name: Issue and Ticket Primitives
+  description: Issue tracking APIs expose a core issue/ticket primitive with identifier,
+    title, description, status, assignee, reporter, priority, and timestamps as the
+    unit of work that flows through development and project workflows.
+- name: Configurable Workflows and Transitions
+  description: Trackers like Jira, Linear, and Azure DevOps model state machines on
+    top of issues — open, in-progress, in-review, done — and expose transition APIs
+    that move work between states with optional validations and side effects.
+- name: Labels, Components, and Custom Fields
+  description: Issue APIs let teams classify work using labels, tags, components,
+    fix versions, epics, and arbitrary custom fields, which are first-class resources
+    that can be created, listed, and assigned via the API.
+- name: Comments and Activity Streams
+  description: Issues accumulate conversation and history. Most trackers expose comments
+    as a separate resource and provide an audit-style activity stream covering field
+    changes, transitions, and attachments.
+- name: Sprints, Boards, and Backlogs
+  description: Agile-oriented APIs (Jira Agile, Linear, Shortcut, Azure Boards) expose
+    sprints, iterations, kanban boards, and backlogs as objects you can query and
+    mutate alongside the underlying issues.
+- name: Webhooks and Event Subscriptions
+  description: Issue trackers publish events (created, updated, transitioned, commented)
+    over webhooks so external automations, chatops bots, CI systems, and AI agents
+    can react to work-item changes in near real time.
+- name: Search, JQL, and Saved Queries
+  description: Trackers expose query languages or filter parameters (Jira's JQL, GitHub's
+    search syntax, Linear's filter API) for finding issues by status, assignee, label,
+    sprint, or arbitrary custom-field combinations.
+- name: Attachments and Linked Resources
+  description: Issues support file attachments and relationships to other issues (blocks,
+    blocked-by, duplicates, relates-to) and to external artifacts like commits, pull
+    requests, deploys, and design files.
+use_cases:
+- name: Engineering Issue Tracking
+  description: Software teams use Jira, Linear, GitHub Issues, or GitLab Issues as
+    the system of record for bugs, stories, and tasks, with API integrations into
+    IDEs, CI/CD pipelines, and code review tools.
+- name: Cross-Team Work Coordination
+  description: Work-management platforms like Asana, ClickUp, Monday.com, and Wrike
+    coordinate tasks across engineering, marketing, design, and operations, often
+    syncing with developer trackers via API.
+- name: Product Roadmap and Discovery
+  description: Productboard, Shortcut, and Linear connect customer feedback and product
+    opportunities to issues and roadmap items, exposing APIs for ingesting feedback
+    and synchronizing with engineering work.
+- name: ChatOps and Bot Automation
+  description: Slack, Microsoft Teams, and Discord bots create, update, transition,
+    and comment on issues using tracker APIs — turning chat messages into tickets
+    and pushing status updates back into channels.
+- name: AI Agent Triage and Routing
+  description: AI agents use issue tracker APIs to classify incoming issues, suggest
+    labels and assignees, summarize threads, draft replies, link related tickets,
+    and propose status transitions for human review.
+- name: Reporting, Dashboards, and Analytics
+  description: BI tools and dashboards pull cycle time, throughput, lead time, and
+    backlog metrics from issue tracker APIs to measure engineering productivity and
+    project health.
+- name: Internal Developer Portals
+  description: Backstage, Compass, and other internal developer portals embed issue
+    tracker data alongside services, deployments, and ownership so teams see open
+    issues for the components they own.
+integrations:
+- name: Jira
+  description: Atlassian's market-leading issue and project tracker for software teams,
+    with a deep REST API covering issues, projects, sprints, JQL search, custom fields,
+    and webhooks.
+- name: Linear
+  description: Modern, opinionated issue tracker for high-velocity software teams,
+    with a first-class GraphQL API for issues, cycles, projects, and roadmaps.
+- name: GitHub Issues
+  description: Lightweight tracker built into GitHub repositories, accessible through
+    the GitHub REST and GraphQL APIs alongside pull requests, commits, and Actions.
+- name: GitLab Issues
+  description: Issue tracker tightly integrated with GitLab repositories, CI/CD, and
+    merge requests, exposed via the GitLab REST and GraphQL APIs.
+- name: Asana
+  description: Work-management platform with tasks, projects, sections, and custom
+    fields, exposed via the Asana REST API and frequently used as a cross-functional
+    issue tracker.
+- name: ClickUp
+  description: All-in-one work-management platform with tasks, lists, spaces, and
+    views, accessible through the ClickUp REST API.
+- name: Monday.com
+  description: Visual work-management platform with boards, items, and columns, accessible
+    through the Monday GraphQL API and widely used as a task and issue tracker.
+- name: Azure DevOps
+  description: Microsoft's developer platform whose Boards service provides work-item
+    tracking (bugs, user stories, tasks, epics) via the Azure DevOps REST API.
