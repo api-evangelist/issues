@@ -7,7 +7,7 @@ description: >-
   Productboard and Shortcut; classic open-source bug trackers like Redmine; and flexible work-item stores like Notion, Airtable, and Smartsheet. It is distinct from the customer-support topic (Zendesk-style help
   desks) and from incident management (which lives under monitoring).
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Issue Tracking
 - Bug Tracking
