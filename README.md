@@ -3,8 +3,6 @@ An index and topic collection covering issue tracking, bug tracking, and project
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - Issue Tracking, Bug Tracking, Project Management, Task Management, Work Management
