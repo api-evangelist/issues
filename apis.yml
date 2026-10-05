@@ -1,5 +1,6 @@
 aid: issues
 name: Issues
+kind: topic
 description: >-
   An index and topic collection covering issue tracking, bug tracking, and project-management APIs that expose issue, ticket, task, and work-item primitives. Issue tracking APIs are the connective tissue between
   engineering, product, and operations work — they capture defects, feature requests, user stories, and tasks, then move them through configurable workflows from creation to resolution. This collection includes
