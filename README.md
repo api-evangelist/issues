@@ -1,119 +1,97 @@
-# Issues (issues)
+# Issues
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering issue tracking, bug tracking, and project-management APIs that expose issue, ticket, task, and work-item primitives. Issue tracking APIs are the connective tissue between engineering, product, and operations work — they capture defects, feature requests, user stories, and tasks, then move them through configurable workflows from creation to resolution. This collection includes developer-centric trackers like Jira, Linear, GitHub Issues, and GitLab Issues; project- and work-management platforms like Asana, ClickUp, Monday.com, Trello, and Wrike; product-discovery trackers like Productboard and Shortcut; classic open-source bug trackers like Redmine; and flexible work-item stores like Notion, Airtable, and Smartsheet. It is distinct from the customer-support topic (Zendesk-style help desks) and from incident management (which lives under monitoring).
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** Issue Tracking · Bug Tracking · Project Management · Task Management · Work Management
 
-## Tags:
+## Issues on APIs.io
 
- - Issue Tracking, Bug Tracking, Project Management, Task Management, Work Management
+Everything profiled for Issues is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/issues/](https://apis.io/providers/issues/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Issue Schema](https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/json-schema/issues-issue-schema.json)
-- [JSONSchema - Comment Schema](https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/json-schema/issues-comment-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/json-ld/issues-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/issues/refs/heads/main/vocabulary/issues-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Issue and Ticket Primitives | Issue tracking APIs expose a core issue/ticket primitive with identifier, title, description, status, assignee, reporter, priority, and timestamps as the unit of work that flows through development and project workflows. |
-| Configurable Workflows and Transitions | Trackers like Jira, Linear, and Azure DevOps model state machines on top of issues — open, in-progress, in-review, done — and expose transition APIs that move work between states with optional validations and side effects. |
-| Labels, Components, and Custom Fields | Issue APIs let teams classify work using labels, tags, components, fix versions, epics, and arbitrary custom fields, which are first-class resources that can be created, listed, and assigned via the API. |
-| Comments and Activity Streams | Issues accumulate conversation and history. Most trackers expose comments as a separate resource and provide an audit-style activity stream covering field changes, transitions, and attachments. |
-| Sprints, Boards, and Backlogs | Agile-oriented APIs (Jira Agile, Linear, Shortcut, Azure Boards) expose sprints, iterations, kanban boards, and backlogs as objects you can query and mutate alongside the underlying issues. |
-| Webhooks and Event Subscriptions | Issue trackers publish events (created, updated, transitioned, commented) over webhooks so external automations, chatops bots, CI systems, and AI agents can react to work-item changes in near real time. |
-| Search, JQL, and Saved Queries | Trackers expose query languages or filter parameters (Jira's JQL, GitHub's search syntax, Linear's filter API) for finding issues by status, assignee, label, sprint, or arbitrary custom-field combinations. |
-| Attachments and Linked Resources | Issues support file attachments and relationships to other issues (blocks, blocked-by, duplicates, relates-to) and to external artifacts like commits, pull requests, deploys, and design files. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Engineering Issue Tracking | Software teams use Jira, Linear, GitHub Issues, or GitLab Issues as the system of record for bugs, stories, and tasks, with API integrations into IDEs, CI/CD pipelines, and code review tools. |
-| Cross-Team Work Coordination | Work-management platforms like Asana, ClickUp, Monday.com, and Wrike coordinate tasks across engineering, marketing, design, and operations, often syncing with developer trackers via API. |
-| Product Roadmap and Discovery | Productboard, Shortcut, and Linear connect customer feedback and product opportunities to issues and roadmap items, exposing APIs for ingesting feedback and synchronizing with engineering work. |
-| ChatOps and Bot Automation | Slack, Microsoft Teams, and Discord bots create, update, transition, and comment on issues using tracker APIs — turning chat messages into tickets and pushing status updates back into channels. |
-| AI Agent Triage and Routing | AI agents use issue tracker APIs to classify incoming issues, suggest labels and assignees, summarize threads, draft replies, link related tickets, and propose status transitions for human review. |
-| Reporting, Dashboards, and Analytics | BI tools and dashboards pull cycle time, throughput, lead time, and backlog metrics from issue tracker APIs to measure engineering productivity and project health. |
-| Internal Developer Portals | Backstage, Compass, and other internal developer portals embed issue tracker data alongside services, deployments, and ownership so teams see open issues for the components they own. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Issues: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Jira | Atlassian's market-leading issue and project tracker for software teams, with a deep REST API covering issues, projects, sprints, JQL search, custom fields, and webhooks. |
-| Linear | Modern, opinionated issue tracker for high-velocity software teams, with a first-class GraphQL API for issues, cycles, projects, and roadmaps. |
-| GitHub Issues | Lightweight tracker built into GitHub repositories, accessible through the GitHub REST and GraphQL APIs alongside pull requests, commits, and Actions. |
-| GitLab Issues | Issue tracker tightly integrated with GitLab repositories, CI/CD, and merge requests, exposed via the GitLab REST and GraphQL APIs. |
-| Asana | Work-management platform with tasks, projects, sections, and custom fields, exposed via the Asana REST API and frequently used as a cross-functional issue tracker. |
-| ClickUp | All-in-one work-management platform with tasks, lists, spaces, and views, accessible through the ClickUp REST API. |
-| Monday.com | Visual work-management platform with boards, items, and columns, accessible through the Monday GraphQL API and widely used as a task and issue tracker. |
-| Azure DevOps | Microsoft's developer platform whose Boards service provides work-item tracking (bugs, user stories, tasks, epics) via the Azure DevOps REST API. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [Issue Schema](json-schema/issues-issue-schema.json)
-- [Comment Schema](json-schema/issues-comment-schema.json)
-
-### JSON Structure
-
-- [Issue Structure](json-structure/issues-issue-structure.json)
-- [Comment Structure](json-structure/issues-comment-structure.json)
-
-### JSON-LD
-
-- [Issues Context](json-ld/issues-context.jsonld)
-
-## Vocabulary
-
-- [Issues Vocabulary](vocabulary/issues-vocabulary.yaml) — Unified taxonomy mapping 6 resources, 9 actions, 4 workflows, and 4 personas across issue trackers, bug trackers, and project-management platforms
-
-## Network
-
-This index references the following issue tracking and project-management repositories:
-
-- [Airtable](https://github.com/api-evangelist/airtable)
-- [Asana](https://github.com/api-evangelist/asana)
-- [Atlassian](https://github.com/api-evangelist/atlassian)
-- [Atlassian Compass](https://github.com/api-evangelist/atlassian-compass)
-- [Atlassian Jira](https://github.com/api-evangelist/atlassian-jira)
-- [Azure DevOps](https://github.com/api-evangelist/azure-devops)
-- [Basecamp](https://github.com/api-evangelist/basecamp)
-- [Bitbucket](https://github.com/api-evangelist/bitbucket)
-- [ClickUp](https://github.com/api-evangelist/clickup)
-- [Gitea](https://github.com/api-evangelist/gitea)
-- [GitHub](https://github.com/api-evangelist/github)
-- [GitLab](https://github.com/api-evangelist/gitlab)
-- [Hive](https://github.com/api-evangelist/hive)
-- [Jira](https://github.com/api-evangelist/jira)
-- [Linear](https://github.com/api-evangelist/linear)
-- [Microsoft Project](https://github.com/api-evangelist/microsoft-project)
-- [Monday.com](https://github.com/api-evangelist/monday-com)
-- [Notion](https://github.com/api-evangelist/notion)
-- [Productboard](https://github.com/api-evangelist/productboard)
-- [Redmine](https://github.com/api-evangelist/redmine)
-- [Shortcut](https://github.com/api-evangelist/shortcut)
-- [Smartsheet](https://github.com/api-evangelist/smartsheet)
-- [Teamwork](https://github.com/api-evangelist/teamwork)
-- [Trello](https://github.com/api-evangelist/trello)
-- [Wrike](https://github.com/api-evangelist/wrike)
-- [Zoho](https://github.com/api-evangelist/zoho)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/issues/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
